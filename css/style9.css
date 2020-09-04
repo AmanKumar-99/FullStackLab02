@@ -113,12 +113,12 @@ span{
 
 #mrk:checked ~ .show{
     display: none;
-    transition:.3s;
+    transition:.4s;
 }
 
 #mrk:checked ~ .hide{
     display:inline-block;
-    transition:.3s;
+    transition:.4s;
 }
 
 #mrk:checked ~ .main{
