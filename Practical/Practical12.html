@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 12</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        body{
+            width:100%;
+            background-color:lightgray;
+        }
+        .box{
+            width: 700px;
+            background-color: #fff;
+            margin:20px auto;
+            padding:10px;
+        }
+        table{
+            width:100%;
+            margin:0 auto;
+            border-collapse: collapse;
+        }
+
+        .basic{
+            background-color:rgba(167, 243, 167, 0.918);
+        }
+        .plus{
+            background-color:rgba(255, 182, 193, 0.918);
+        }
+
+        .deluxe{
+            background-color:rgba(161, 255, 255, 0.918);
+        }
+        .pro{
+            background-color:rgba(154, 211, 246, 0.918);
+        }
+
+        table th,table td{
+            width: 275px;
+            padding:10px 6px;
+            text-align: center;
+            border-right:4px solid white;
+            border-left:4px solid white;
+        }
+        thead th{
+            font-size:30px;
+            height:90px;
+        }
+        tr i{
+            padding-right:8px;
+        }
+
+        tbody tr:nth-child(odd),tfoot tr:nth-child(odd){
+            background-color:rgba(255, 233, 191, 0.945);
+        }
+
+        tbody tr:first-child td{
+            color:green;
+            font-size:22px;
+        }
+
+        tfoot tr{
+            line-height:70px;
+        }
+
+        a{
+            text-decoration:none;
+            background-color:crimson;
+            padding:15px 25px;
+            border-radius:10px;
+            color:white;
+            font-size:20px;
+        }
+
+        a:hover{
+            background-color:teal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <table>
+            <colgroup class="basic"></colgroup>
+            <colgroup class="plus"></colgroup>
+            <colgroup class="deluxe"></colgroup>
+            <colgroup class="pro"></colgroup>
+            <h1>
+                Select your plan
+            </h1>
+            <thead>
+                <th><i class="fa fa-building"></i>Basic</th>
+                <th><i class="fa fa-superpowers"></i>Plus</th>
+                <th><i class="fa fa-telegram"></i>Deluxe</th>
+                <th><i class="fa fa-tachometer"></i>Pro</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rs 500/-</td>
+                    <td>Rs 1500/-</td>
+                    <td>Rs 2500/-</td>
+                    <td>Rs 3500/-</td>
+                </tr>
+
+                <tr>
+                    <td>50 pages</td>
+                    <td>75 pages</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr>
+                    <td>3 Users</td>
+                    <td>5 Users</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr>
+                    <td>10 Sites</td>
+                    <td>50 Sites</td>
+                    <td>100 Sites</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr>
+                    <td>50 MB</td>
+                    <td>250 MB</td>
+                    <td>1 GB</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr>
+                    <td>Included</td>
+                    <td>Included</td>
+                    <td>Included</td>
+                    <td>Included</td>
+                </tr>
+
+                <tr>
+                    <td><img src="../img/check.png"></td>
+                    <td><img src="../img/check.png"></td>
+                    <td><img src="../img/check.png"></td>
+                    <td><img src="../img/check.png"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="../img/cross.png"></td>
+                    <td><img src="../img/check.png"></td>
+                    <td><img src="../img/check.png"></td>
+                    <td><img src="../img/check.png"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="../img/cross.png"></td>
+                    <td><img src="../img/cross.png"></td>
+                    <td><img src="../img/check.png"></td>
+                    <td><img src="../img/check.png"></td>
+                </tr>
+
+                <tr>
+                    <td><img src="../img/cross.png"></td>
+                    <td><img src="../img/cross.png"></td>
+                    <td><img src="../img/cross.png"></td>
+                    <td><img src="../img/check.png"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><a href="#">Sign Up</a></td>
+                    <td><a href="#">Sign Up</a></td>
+                    <td><a href="#">Sign Up</a></td>
+                    <td><a href="#">Sign Up</a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
