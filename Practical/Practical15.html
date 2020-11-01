@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        *{
+            text-align: center;
+            margin-top:20px;
+        }
+        body{
+            background-image: linear-gradient(to left,red,black);
+            color:white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        button{
+            height:60px;
+            width: 60px;
+            font-size: xx-large;
+            background-color: orangered;
+        }
+        a{
+            padding: 40px;
+            font-size: xx-large;
+            
+        }
+
+    </style>
+</head>
+<script>
+    var value=0;
+    function increment(){
+        value=value+1;
+        document.getElementById('value').innerHTML=value;
+        return value;
+    }
+    function decrement(){
+        value=value-1;
+        document.getElementById('value').innerHTML=value;
+        return value;
+    }
+</script>
+<body>
+    <h1>COUNTER</h1>
+    <button onclick="decrement()">-</button>
+    <a id="value">0</a>
+    <button onclick="increment()">+</button>
+</body>
+</html>
