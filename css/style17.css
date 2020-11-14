@@ -15,7 +15,7 @@ body{
 }
 
 #time{
-    font-size: 9rem;
+    font-size: 7rem;
 }
 
 h1{
@@ -23,14 +23,14 @@ h1{
 }
 
 h2{
-    font-size: 5rem;
+    font-size: 4rem;
     opacity: 0.5;
 }
 
 #greeting{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #date{
-    font-size: 3rem;
+    font-size: 2rem;
 }
